@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+/**
+ * Write a description of class SingleNumberSolverMain here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class SingleNumberSolverMain{
+    public static void main(String[] args){
+        SingleNumberSolver solver = new SingleNumberSolver();
+        int[] arr1 = {-2, 5, -2, 5, 3, -6, 10, -6, 10};
+        System.out.println("For the array: " + Arrays.toString(arr1) + 
+                            "\nthe unique element is " + solver.singleNumber(arr1));
+    }
+    
+}
+
