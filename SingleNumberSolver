@@ -1,0 +1,5 @@
+public class SingleNumberSolver {
+    public int singleNumber(int[] nums) {
+        // TO-DO: your code here
+    }
+}
