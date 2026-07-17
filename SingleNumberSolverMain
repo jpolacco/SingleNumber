@@ -12,6 +12,9 @@ public class SingleNumberSolverMain{
         int[] arr1 = {-2, 5, -2, 5, 3, -6, 10, -6, 10};
         System.out.println("For the array: " + Arrays.toString(arr1) + 
                             "\nthe unique element is " + solver.singleNumber(arr1));
+
+        // TO-DO: your code here
+        // Add at least two more test cases
     }
     
 }
